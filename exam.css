@@ -28,12 +28,14 @@ body {
 .box:hover {
   background-image: none;
   background-color: rgb(241, 16, 16);
-  transition: 2s  ease-in-out;
-  
+  transition: 2s ease-in-out;
 }
-.box:hover .img{
-    display: none;
-    
+.box:hover .img {
+  display: none;
+}
+.box:hover .text {
+  padding: 100px;
+  font-size: xx-large;
 }
 h2 {
   padding: 0px;
@@ -43,7 +45,6 @@ h2 {
   text-align: center;
   color: rgb(241, 174, 28);
 }
-
 
 @media screen and (max-width: 500px) {
   .wrapper {
